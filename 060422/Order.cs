@@ -19,7 +19,7 @@ namespace _060422
 
         public string ShowInfo()
         {
-            return $"No: {this.No} - Product amount: {this.ProductCount} - Total amount: {this.TotalAmount} Created at: {this.CreatedAt}";
+            return $"No: {this.No} - Product count: {this.ProductCount} - Total amount: {this.TotalAmount} Created at: {this.CreatedAt}";
         }
     }
 }
