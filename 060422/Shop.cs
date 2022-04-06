@@ -47,7 +47,7 @@ namespace _060422
             if (no == null)
                 throw new NullReferenceException("no null ola bilmez");
             var removeNo = _orders.Find(o => o.No == no);
-            if(no == null)
+            if(removeNo == null)
                 throw new Exception("bele group yoxdur");
             _orders.Remove(removeNo);
         }
